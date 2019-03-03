@@ -1,0 +1,77 @@
+<html>
+<head>
+<title>register page</title>
+<link rel="stylesheet" tybe="text/css" href="style/style.css"/>
+</head>
+<body>
+<main class="center">
+
+<article>
+  <header>
+    <h1>Contact Us</h1>
+  </header>
+</article>
+
+<form>
+	<fieldset>
+		<legend>1 Account Information</legend>
+		User Name* <input type="text" name="userName" maxlength="10" placeholder="User name.." required>
+		<br>
+		<br>
+		Password* <input type="password" name="Password" placeholder="Password.." required>
+		<br>
+		<br>
+		Confirm Password* <input type="password" name="PasswordConfirmation" placeholder="Confirm password.." required>
+		<br>
+		<br>
+		Cridit Card No* <input type="number" name="criditCard" max="14" placeholder="Cridit card number.." required>
+	</fieldset>
+	<br>
+	<fieldset>
+		<legend>2 Personal Information</legend>
+		Name* <input type="text" name="Name" placeholder="Your name.." required />
+		<br>
+		<br>
+		Date of Birth* <input type="date" name="bday"/>
+		<br>
+		<br>
+		Favorite Color <input type="color" name="favcolor"/>
+		<br>
+		<br>
+		Profile Photo(s) <input type="file" name="chooseFile" multiple/>
+		<br>
+		<br>
+		Favorite Browser <input type="search" name="favBrowser" list="Browsers" placeholder="Choose"/>
+		<datalist id="Browsers"> <option value="Google"/> <option value="Opera"/> <option value="Firefox"/> </datalist>
+	</fieldset>
+	<br>
+	<fieldset>
+		<legend>3 Company Information</legend>
+		No. of Employees <input type="number" name="numOfEmp" placeholder="Number of Employees" />
+		<br>
+		<br>
+		Estimated Revenue <input type="range" name="points" min="0">
+	</fieldset>
+	<br>
+	<fieldset>
+		<legend>4 Contact Information</legend>
+		Email Address(es)* <input type="email" name="email" placeholder="Example@mail.com" required multiple>
+		<br>
+		<br>
+		Phone Number <input type="tel" name="phone" placeholder="Your phone number">
+		<br>
+		<br>
+		Website URL <input type="url" name="websiteURL" placeholder="Website URL">
+	</fieldset>
+	<input type="submit" value="Submit">
+	<input type="reset" value="Cancel">
+</form>
+<nav>
+		<a href="welcome page.html">Welcom Page</a> |
+		<a href="home page.html">CV</a> |
+		<a href="sites_directory.html">Sites Directory</a> |
+		<a href=login.html>Login</a>
+</nav>
+</main>
+</body>
+</html>
