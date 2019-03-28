@@ -1,0 +1,13 @@
+.btn-group
+{
+    cursor: pointer; /* Pointer/hand icon */
+    float: left; /* Float the buttons side by side */
+}
+.td-center
+{
+    text-align:center;
+}
+table
+{
+    width: 100%;
+}
